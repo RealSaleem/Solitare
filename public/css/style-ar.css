@@ -1,0 +1,329 @@
+body.bgImage-full{
+    background-image: url(../img/body_bg__2_ar.png);
+}
+body.bgImage {
+    background-image: url(../img/body_bg_ar.png);
+    background-position: 0 0;
+}
+.hdr__search .input-group-append button {
+    left: 0;
+    right: auto;
+}
+.slider__lft p, .slider__lft h1{
+    text-align: right;
+}
+.slider-area .carousel-caption{
+    right: 55%;
+}
+body.bgImage-full{
+    background-position: -430px -520px;
+}
+.energy__info{
+    text-align: right;
+}
+.news-area:before{
+    border-radius: 524px 0 0 524px;
+    right: 0;
+}
+.news-hed h2{
+    text-align: right;
+}
+.news__cont {
+    text-align: right;
+}
+.news__cont {
+    text-align: right;
+}
+
+.news__cont a span {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    display: inline-flex;
+}
+.news-button{
+    text-align: right;
+}
+.about-area:before{
+    border-radius: 0 60px 60px 0;
+    left: 0;
+    right: auto;
+    border: 10px solid #DFE0E1;
+    border-left: 0;
+}
+.provide-area:before{
+    right: 0;
+    left: auto;
+    border-radius: 524px 0 0 524px;
+}
+.provide__cont h3{
+    text-align: right;
+}
+.provide__cont ul li:before {
+    left: auto;
+    right: 0;
+    width: 20px;
+}
+.provide__cont ul li{
+    padding-left: 0;
+    padding-right: 50px;
+}
+.brandsPage-area:before{
+    border-radius: 524px 0 0 524px;
+    left: auto;
+    right: 0;
+}
+.brandsPage-area .brands-hed h2, .brandsPage-area .brands-hed p, .represent-hed h2 {
+    text-align: right;
+}
+.represent__cont, .affi-cont, .ftr__hed h3, .newsDtl-hed h2, .newsDtl__rgt p {
+    text-align: right;
+}
+button.ftr__send{
+    float: left;
+}
+.team-hed-area h2 {
+    text-align: right;
+}
+
+.team-title {
+    text-align: right;
+}
+.team-area:before{
+    border-radius: 524px 0 0 524px;
+    right: 0;
+    left: auto;
+}
+.join-hed h2 {
+    text-align: right;
+}
+
+.inr-section h3 {
+    text-align: right;
+}
+.file-custom:before {
+    right: auto;
+    left: -.075rem;
+}
+.file-custom:after {
+    float: right;
+}
+.app__form button{
+    float: right;
+}
+.apply-lft h4, .apply-lft p {
+    text-align: right;
+}
+.apply-area h2, .apply-area p{
+    text-align: right;
+}
+.slider-area .carousel-indicators {
+    justify-content: flex-start;
+}
+
+@media screen and (min-width: 1680px) {
+    body.bgImage-full {
+        background-position: -200px -590px;
+    }
+}
+
+@media screen and (min-width: 1980px) {
+    body.bgImage {
+        background-position: -90px -180px;
+    }
+}
+
+@media (min-width:1681px) and (max-width:1920px) {
+    body.bgImage-full {
+        background-position: -200px -540px;
+    }
+    body.bgImage-full.page-size-small {
+        background-position: -130px -230px;
+    }
+    body.bgImage {
+        background-position: 0px -90px;
+    }
+}
+@media (min-width:1921px) and (max-width:1980px) {
+    body.bgImage-full {
+        background-position: -100px -572px;
+    }
+}
+@media (min-width:1981px) and (max-width:2560px) {
+    body.bgImage-full.news-page, body.bgImage-full, body.bgImage-full.page-size-small, body.bgImage-full.brands-body, body.bgImage-full.gallery-page{
+        background-position: 0px -540px;
+        background-size: cover;
+    }
+    body.bgImage {
+        background-position: 100px -240px;
+    }
+}
+@media (max-width:4400px) and (min-width: 2561px){
+    body.bgImage-full, body.bgImage-full.page-size-small, body.bgImage-full.brands-body, body.bgImage-full.gallery-page {
+        background-position: 0px -1080px;
+        background-size: cover;
+    }
+    body.bgImage-full.news-page {
+        background-position: 0px -980px;
+    }
+    body.bgImage {
+        background-position: -50px -540px;
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 1440px) {
+    body.bgImage-full {
+        background-position: -470px -541px;
+    }
+}
+
+@media screen and (max-width: 1368px) {
+    body.bgImage-full {
+        background-position: -510px -540px;
+    }
+    .news-area:before, .brands-area:before, .provide-area:before, .brandsPage-area:before{
+        width: 100%;
+    }
+    .clients-area:before{
+        border-radius: 0 224px 224px 0;
+    }
+    .news-area:before {
+        border-radius: 224px 0 0 224px;
+    }
+    .brands-area:before, .brandsPage-area:before{
+        border-radius: 224px 0px 0px 224px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    body.bgImage-full {
+        background-position: -599px -610px;
+    }
+    .team-area:before {
+        border-radius: 324px 0 0 324px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body.bgImage-full {
+        background-position: -300px -1030px;
+    }
+    body.bgImage-full.page-size-small {
+        background-position: -290px -350px;
+    }
+    .hdr__search input.form-control {
+        border-color: #F76502;
+    }
+    .hdr__search .input-group-append button i,.topbar__box ul li select.form-control:focus, .hdr__search input.form-control, .topbar__box input.form-control:focus, .topbar__box select{
+        color: #F76502;
+    }
+    .topbar__box input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: #F76502;
+    }
+    .topbar__box input::-moz-placeholder { /* Firefox 19+ */
+        color: #F76502;
+    }
+    .topbar__box input:-ms-input-placeholder { /* IE 10+ */
+        color: #F76502;
+    }
+    .topbar__box input:-moz-placeholder { /* Firefox 18- */
+        color: #F76502;
+    }
+    body.bgImage-full.brands-body {
+        background-position: -30px -820px;
+    }
+    body.bgImage-full.news-page {
+        background-position: -300px -410px;
+    }
+    body.bgImage {
+        background-position: -460px -70px;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    header nav.hdr-navbar ul.navbar-nav li a.nav-link {
+        font-size: 1.1rem;
+    }
+    body.bgImage-full.news-page {
+        background-position: -150px -300px;
+    }
+    body.bgImage {
+        background-position: -580px -120px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body.bgImage {
+        background-position: -690px -20px;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    header nav.hdr-navbar ul.navbar-nav li a.nav-link {
+        font-size: 1.2rem;
+    }
+    body.bgImage-full {
+        background-position: -540px -1110px;
+    }
+    .news-area:before {
+        border-radius: 224px 0 0 224px;
+    }
+    .brands-area:before, .provide-area:before{
+        border-radius: 224px 0px 0px 224px;
+    }
+    .about-area .energy__info {
+        margin-top: 25%;
+    }
+    body.bgImage-full.brands-body {
+        background-position: -890px -1010px;
+    }
+    body.bgImage-full.news-page {
+        background-position: -400px -1070px;
+    }
+    body.bgImage {
+        background-position: -890px -140px;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    body.bgImage-full {
+        background-position: -540px -1160px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+
+    body.bgImage-full {
+        background-position: -540px -1220px;
+    }
+    .slider-area .carousel-caption {
+        margin-top: 15%;
+    }
+    body.bgImage-full.page-size-small {
+        background-position: -370px -350px;
+    }
+    body.bgImage-full.brands-body {
+        background-position: -1810px -1010px;
+    }
+    .team-area:before {
+        border-radius: 124px 0 0 124px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body.bgImage-full {
+        background-position: -2130px -680px;
+    }
+    body.bgImage-full.page-size-small {
+        background-position: -370px -510px;
+    }
+    .provide-area:before{
+        border-radius: 124px 0px 0px 124px;
+    }
+    body.bgImage {
+        background-position: -1020px -180px;
+    }
+}
