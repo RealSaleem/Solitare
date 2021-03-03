@@ -67,4 +67,19 @@ return [
     'full_time'                 =>  'Full-Time',
     'internship'                =>  'Internship',
     'contract'                  =>  'Contract',
+    'contact'                  =>  'Contact Us',
+    'partner'                  =>  'Partners',
+    'service'                  =>  'Services',
+    'success-story'            =>  'Success Stories',
+
+    'event'                     =>  'Events',
+    'view_all_news'             =>  'View All News',
+    'view_all_event'            =>  'View All Events',
+    'view_all_partners'         =>  'View All Partners',
+    'view_all_services'         =>  'View All Services',
+    'view_all_careers'          =>  'View All Careers',
+    'view_all_success_stories'  =>  'View All Success Stories',
+    'view_all_contact_us'       =>  'View All Contact Us',
+
+
 ];

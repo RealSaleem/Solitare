@@ -144,7 +144,13 @@ return [
         ],
 
         'widgets' => [
-
+            'TCG\\Voyager\\Widgets\\ServiceDimmer',
+            'TCG\\Voyager\\Widgets\\PartnersDimmer',
+            'TCG\\Voyager\\Widgets\\SuccessStories',
+            'TCG\\Voyager\\Widgets\\NewsDimmer',
+            'TCG\\Voyager\\Widgets\\EventDimmer',
+            'TCG\\Voyager\\Widgets\\CareersDimmer',
+            'TCG\\Voyager\\Widgets\\ContactUsDimmer',
         ],
 
     ],

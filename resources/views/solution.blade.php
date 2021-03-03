@@ -331,15 +331,23 @@
                             </h4>
                         </div>
                         <div class="chat__form">
-                            <form action="/action_page.php">
+                            @if (isset($errors) && count($errors) > 0)
+                                <div >
+                                    @foreach ($errors->all() as $error)
+                                        <div class="alert alert-danger">{{ $error }}</div>
+                                    @endforeach
+                                </div>
+                            @endif
+                            <form action="{{url('send-msg')}}" method="POST">
+                                @csrf
                                 <div class="form-group col-12 col-sm-12 col-md-12">
-                                    <input type="text" class="form-control" id="name" placeholder="{{trans('text.your_name')}}">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="{{trans('text.your_name')}}">
                                 </div>
                                 <div class="form-group col-12 col-sm-12 col-md-12">
-                                    <input type="email" class="form-control" id="email" placeholder="{{trans('text.email_address')}}">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="{{trans('text.email_address')}}">
                                 </div>
                                 <div class="form-group col-12 col-sm-12 col-md-12">
-                                    <textarea class="form-control" rows="5" id="message" placeholder="{{trans('text.message')}}"></textarea>
+                                    <textarea class="form-control" rows="5" id="message" name="message" placeholder="{{trans('text.message')}}"></textarea>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-12">
                                     <button type="submit" class="chat__submit">{{trans('text.send')}} <span><i class="fas fa-paper-plane"></i></span></button>
